@@ -24,8 +24,6 @@ Enjoy responsibly!
    Base styles: opinionated defaults
    ========================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100);
-
 @-webkit-keyframes rotateplane {
   0% { -webkit-transform: perspective(120px) }
   50% { -webkit-transform: perspective(120px) rotateY(180deg) }
@@ -56,8 +54,6 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
-    text-align: center;
 }
 
 /*
@@ -170,7 +166,7 @@ main {
 #slide-1 .bcg {background: #3B6FFF}
 
 /* Slide 2 */
-#slide-2 .bcg {background: none; background-color: #000000; height: 310px; text-align: center}
+#slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
 
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
@@ -217,7 +213,7 @@ main {
 	.hsContent p {
 		width: 400px;
 		margin: 0 auto;
-		color: #EEEEEE;
+		color: #b2b2b2;
 	}
 	.hsContent a {
 		color: #b2b2b2;
