@@ -13,11 +13,12 @@
 		<link rel="author" href="//plus.google.com/+TrentaosOrgLinux"/>
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
         <style type="text/css">
+            body {
+            background-color: black;
+            }
 			.back-link a {
 				color: #4ca340;
 				text-decoration: none; 
@@ -33,10 +34,7 @@
 				height: 100%;
 				/* The html and body elements cannot have any padding or margin. */
 				margin: 0;
-				font-size: 14px;
-				font-family: 'Open Sans', sans-serif;
-				color: #1c1d1e;
-				font-size: 32px;
+				font-size: 3em;
 				margin-bottom: 3px;
 			}
 			h2 {
@@ -44,13 +42,16 @@
 				font-family: 'Open Sans', sans-serif;
 				font-weight: normal;
 			}
-			.entry-header .inner {
-				text-align: left;
-				margin: 0 auto 20px auto;
-				width: 800px;
-			}
-			.entry-header { padding-top: 20px; background-color: #fff; width:100%; position: fixed; top: 0; left: 0; z-index: 999999}
+            header {
+            height: auto;
+            }
 		</style>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+                <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -58,7 +59,39 @@
         <![endif]-->
        	
        	<header class="entry-header">
-        	
+                <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Trenta OS</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="#get-involved">Get Involved</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 		</header>
        	
        	<main>
@@ -75,11 +108,11 @@
 		    </section>
 		    
 		    <section id="slide-2">
-		    	<div class="bcg" data-0="background-color:rgb(1,27,59);" data-top="background-color:(0,0,0);"  data-anchor-target="#slide-2">
+		    	<div class="bcg" data-0="background-color:rgb(238,238,238);" data-top="background-color:(0,0,0);"  data-anchor-target="#slide-2">
 			    	<div class="hsContainer">
 			    		<div class="hsContent">
-				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2">Fade me in and out</h2>
-				    		<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2">Here we are changing the background color from blue to black. Text is fading in at 206 pixels from the bottom and fading out 106 pixels from the top.</p>
+				    		<h2 data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2">Beautifully Simple</h2>
+				    		<p data-center="opacity: 1" data--200-bottom="opacity: 0" data-206-top="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-2 h2">We have created an interface that is beautifully simple, yet intuitive for advanced users.</p>
 			    		</div>
 		        	</div>
 		    	</div>
@@ -141,6 +174,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/skrollr.js"></script>
+        <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
         <script src="js/_main.js"></script>
         </footer>
     </body>
