@@ -95,6 +95,23 @@ position: relative;
 top: 25px;
 }
 
+a.twitter {
+position: relative;
+top: 8px;
+left: 840px;
+}
+
+a.google {
+position: relative;
+top: 8px;
+left: 840px;
+}
+
+a.logo {
+position: relative;
+top: 8px;
+}
+
 
 
 
