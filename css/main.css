@@ -1,45 +1,82 @@
 @import url(//fonts.googleapis.com/css?family=Roboto);
 @media screen{
+/* Page-wide styling */
 html {
     font-family: 'Roboto', 'Noto Sans', 'Open Sans', 'Ubuntu', sans-serif;
-    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #4285F4;
+}
+/* Navigation */
+nav {background: rgba(238,238,238,0.75); padding-left: 2em;position: fixed;width: 100%;}
+nav h1 {display:inline; vertical-align:middle;}
+nav li {list-style-type: none;display: block;}
+nav ul{list-style-type:none;padding:0;margin:0;position:relative;min-width:200px;float: right;padding-right: 2em;}
+nav ul li{display:inline-block;}
+nav ul li:hover{background:rgba(238,238,238,0.9);}
+nav ul li a, visited{color:#000000;display:block;padding:10px;text-decoration:none;}
+nav ul li:hover ul{display:block;}
+nav ul ul{display:none;position:absolute;background-color:#333;border:5px solid #222;border-top:0;margin-left:-5px;}
+nav ul ul li{display:block;}
+nav ul ul li a:hover{color:#699;}
+/* All Sections */
+main{color:#EEEEEE;}
+/* Section 1 */
+    #home {
+    background: url(../img/bg1.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
 }
+.home-content {  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);text-align: center;}
+    /* Section 2 */
+    #design {
+    background: #4285F4; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.design-content {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);}
+/* Details */
+.btn {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  padding: 10px 20px 10px 20px;
+  border: solid #EEEEEE 2px;
+  text-decoration: none;
+  color: #EEEEEE;
+  
+}
+.btn:hover {
+  background: rgba(100,100,100,0.2);
+  text-decoration: none;
 
-nav {
-    background-color: rgba(238,238,238,0.7);
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 63px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 2px;
-    width: 100%;
-    border: 0px none;
-    font: inherit;
-    vertical-align: baseline;
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;
-    height: 90%; 
-    text-align:center; 
-    display:table;
-    width:100%;
 }
-nav h1 {display:table-cell; vertical-align:middle;}
-nav li {list-style-type: none;}
+    p {
+    margin-bottom: 30px;
+    }
 }
 @media only screen and (min-device-width : 802px) and (max-device-width : 1024px) {
 
 }
 @media only screen and (max-width:801px), only screen and (max-device-width:801px){
-
+    
 }
 @media print {
     

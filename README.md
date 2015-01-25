@@ -1,3 +1,3 @@
 # Trenta OS Website
 
-A gorgeous parallax website with a Twitter Bootstrap header.
+A beautiful website with everything front and center.
