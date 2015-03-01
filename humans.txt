@@ -3,7 +3,8 @@
 
 # TEAM
 
-    Kenny Stier -- Code Cleaner, Webmaster -- @kestier19
+    Kenny Stier -- Tweaker, Contributor, Developer -- @kestier19
+    Kevin Doyle -- Designer, Developer -- @KevDoy
 
 # THANKS
 

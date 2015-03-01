@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/* Eric Meyer's CSS Reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline
+}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display:block
+}
+
+body {
+    line-height:1;
+    background-color:#DFDFDF;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    margin:0;
+    background-position:fixed;
+    min-width:600px;
+    max-width:100%
+}
+
+ol,ul {
+    list-style:none
+}
+
+blockquote,q {
+    quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content:'';
+    content:none
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0
+}
+
+/* End of Eric Meyer's CSS Reset */
+html {
+    height:100%
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+    display:block
+}
+
+body {
+    font:12px/18px Roboto,Arial,sans-serif;
+    width:100%;
+    height:100%;
+    color:#000
+}
+
+.wrapper {
+    width:100%;
+    margin:0 auto;
+    min-height:100%;
+    height:auto!important;
+    height:100%
+}
+
+/*Header */
+.content {
+    margin:0;
+    padding:0;
+    background:#656565;
+    width:100%;
+    height:42px;
+/* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+/* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center
+}
+}
+
+.headerlinkscontainer {
+    width:50%
+}
+
+.headerlinkscontainer a {
+    color:#fff;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size:15px;
+    letter-spacing:-.5px
+}
+
+#hlinkpad {
+    padding:0 50px 0 0
+}
+
+.headerlinkscontainer img {
+    padding:0 50px 0 0
+}
+
+.calltoaction {
+    background-image:url(../img/background.png);
+    background-color:#3DB45E;
+    background-width:100%;
+    background-position:center;
+    height:300px;
+    background-size:cover;
+    margin:0 0 30px;
+    box-shadow:0 10px 20px #ACACAC
+}
+
+.ctac {
+    height:150px;
+/* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+/* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center
+}
+
+#logo {
+    width:50%
+}
+
+.ctac p {
+    text-position:center
+}
+
+.summary {
+    width:100%;
+    max-width:1000px;
+    height:200px;
+    background-position:right;
+    background-color:#000;
+    min-width:600px;
+    box-shadow:5px 5px 20px #ACACAC
+}
+
+.sumspace {
+    margin:35px 0
+}
+
+.summaryo {
+    margin-top:35px;
+    margin-bottom:30px
+}
+
+#outside {
+    margin:0 0 10px;
+/* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+/* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center
+}
+
+#inside {
+    width:50%
+}
+
+h1 {
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size:40px;
+    letter-spacing:-2px;
+    color:#fff
+}
+
+#summarypadding {
+    padding:5px 0 2px 30px;
+    color:#fff
+}
+
+#summarytextpad {
+    padding:7px 0 2px 33px;
+    color:#fff
+}
+
+#summarypaddingr {
+    padding:5px 30px 2px 0;
+    color:#fff;
+    margin:0
+}
+
+#summarytextpadr {
+    padding:7px 33px 2px 0;
+    color:#fff
+}
+
+#rainier {
+    background-image:url(../img/rainierbg.jpg)
+}
+
+#gimp {
+    background-image:url(../img/creative.jpg);
+    text-align:right;
+    background-position:left
+}
+
+#games {
+    background-image:url(../img/gamebg.jpg)
+}
+
+#win {
+    background-image:url(../img/sky.jpg);
+    text-align:right;
+    background-position:left
+}
+
+.social {
+    width:100%;
+    max-width:1000px;
+    height:30px;
+    background-position:right;
+    min-width:600px;
+    margin:20px 0 0;
+    text-align:center
+}
+
+.social p {
+    color:#4c4c4c;
+    margin:10px 0 0
+}
