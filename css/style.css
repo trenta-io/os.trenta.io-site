@@ -55,7 +55,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
-    font:12px/18px 'Roboto',Arial,sans-serif;
+    font:12px/18px Roboto,Arial,sans-serif;
     width:100%;
     height:100%;
     color:#000
@@ -76,13 +76,23 @@ body {
     background:#656565;
     width:100%;
     height:42px;
-    text-align:center
+/* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+/* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center
+}
 }
 
-
 .headerlinkscontainer {
-	text-align:center;
-	padding: 10px 0 0 0;
+    width:50%
 }
 
 .headerlinkscontainer a {
@@ -107,23 +117,26 @@ body {
     background-color:#3DB45E;
     background-width:100%;
     background-position:center;
-    height:250px;
+    height:300px;
     background-size:cover;
     margin:0 0 30px;
     box-shadow:0 10px 20px #ACACAC
 }
 
 .ctac {
-	padding: 0px 0 0 0;
     height:150px;
-	align-content:center;
-	text-align:center
-}
-.ctactop {
-	padding: 60px 0 0 0;
-    height:100px;
-	align-content:center;
-	text-align:center
+/* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+/* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center
 }
 
 #logo {
@@ -141,15 +154,11 @@ body {
     background-position:right;
     background-color:#000;
     min-width:600px;
-    box-shadow:5px 5px 20px #ACACAC;
-	margin-left: auto;
-    margin-right: auto;
+    box-shadow:5px 5px 20px #ACACAC
 }
 
 .sumspace {
-    margin:35px 0;
-	margin-left: auto;
-    margin-right: auto;
+    margin:35px 0
 }
 
 .summaryo {
@@ -159,8 +168,18 @@ body {
 
 #outside {
     margin:0 0 10px;
-	display:box;
-
+/* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+/* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+/* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center
 }
 
 #inside {
@@ -223,17 +242,10 @@ h1 {
     background-position:right;
     min-width:600px;
     margin:20px 0 0;
-	margin-left: auto;
-    margin-right: auto;
-	text-align: center;
+    text-align:center
 }
 
 .social p {
     color:#4c4c4c;
     margin:10px 0 0
-}
-.outsideclass {
-	margin-left: auto;
-    margin-right: auto;
-	width: 100%;
 }
