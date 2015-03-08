@@ -23,7 +23,7 @@ body {
     background-repeat:no-repeat;
     margin:0;
     background-position:fixed;
-    min-width:600px;
+    min-width:675px;
     max-width:100%
 }
 
@@ -105,6 +105,7 @@ body {
     background-image:url(../img/background.png);
     background-color:#3DB45E;
     background-width:100%;
+	min-width: 
     background-position:center;
     height:250px;
     background-size:cover;
@@ -252,7 +253,7 @@ h1 {
 .outsideclass {
     margin-left:auto;
     margin-right:auto;
-    width:100%
+    width:100%;
 }
 
 .downloadbutton {
