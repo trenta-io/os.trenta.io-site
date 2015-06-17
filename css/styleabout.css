@@ -16,8 +16,18 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display:block
 }
 
+html { 
+  background: url(../img/bgblurdark.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 body {
     line-height:1;
+    background-repeat:no-repeat;
     margin:0;
     min-width:600px;
     max-width:100%
@@ -51,7 +61,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 }
 
 body {
-    font:12px/18px Roboto,Arial,sans-serif;
+    font:12px/18px 'Roboto',Arial,sans-serif;
     width:100%;
     height:100%;
     color:#000
@@ -77,8 +87,8 @@ body {
 }
 
 .headerlinkscontainer {
-    text-align:center;
-    padding:10px 0 0
+	text-align:center;
+	padding: 10px 0 0 0;
 }
 
 .headerlinkscontainer a {
@@ -87,7 +97,6 @@ body {
     font-family:'Roboto',sans-serif;
     font-weight:300;
     font-size:15px;
-    letter-spacing:-.5px
 }
 
 #hlinkpad {
@@ -99,43 +108,25 @@ body {
 }
 
 .calltoaction {
-    background-image:url(../img/background.png);
-    background-color:#3DB45E;
+    background-color: rgba(1,1,1,0.56);
     background-width:100%;
     background-position:center;
-    height:250px;
+    height:140px;
     background-size:cover;
     margin:0 0 30px;
-    box-shadow:0 10px 20px #ACACAC
-}
-
-.installscript {
-    display:none
-}
-
-.alpha2 {
-    opacity:.65;
-    filter:alpha(opacity=40)
-/* For IE8 and earlier */
-}
-
-.alpha2:hover {
-    opacity:1;
-    filter:alpha(opacity=100)
-/* For IE8 and earlier */
 }
 
 .ctac {
-    padding:0;
+	padding: 0px 0 0 0;
     height:150px;
-    align-content:center;
-    text-align:center
+	align-content:center;
+	text-align:center
 }
-
 .ctactop {
-    padding:0 0 20px;
-    align-content:center;
-    text-align:center
+	padding: 68px 0 0 0;
+    height:100px;
+	align-content:center;
+	text-align:center
 }
 
 #logo {
@@ -148,21 +139,21 @@ body {
 
 .summary {
     width:100%;
-    max-width:800px;
-    height:400px;
+    max-width:1000px;
+    height:200px;
     background-position:right;
-    background-color: rgba(255,255,255,0.6);
-    min-width:675px;
-    margin-top: 50px;
-	margin-left:auto;
-    margin-right:auto;
+    background-color:#000;
+    min-width:600px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.60);
+	margin-left: auto;
+    margin-right: auto;
 	border-radius: 10px;
 }
 
 .sumspace {
     margin:35px 0;
-    margin-left:auto;
-    margin-right:auto
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .summaryo {
@@ -172,7 +163,8 @@ body {
 
 #outside {
     margin:0 0 10px;
-    display:box
+	display:box;
+
 }
 
 #inside {
@@ -199,13 +191,13 @@ h1 {
 
 #summarypaddingr {
     padding:5px 30px 2px 0;
-    color:#000;
+    color:#fff;
     margin:0
 }
 
 #summarytextpadr {
     padding:7px 33px 2px 0;
-    color:#000
+    color:#fff
 }
 
 #rainier {
@@ -213,11 +205,10 @@ h1 {
 }
 
 #gimp {
-    background-image:url(../img/csmonitor.png);
+    background-image:url(../img/creative.jpg);
     text-align:right;
-    background-position:left;
-    background-repeat:no-repeat;
-	}
+    background-position:left
+}
 
 #games {
     background-image:url(../img/gamebg.jpg)
@@ -236,69 +227,25 @@ h1 {
     background-position:right;
     min-width:600px;
     margin:20px 0 0;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center
+	margin-left: auto;
+    margin-right: auto;
+	text-align: center;
 }
 
 .social p {
     color:#fff;
     margin:10px 0 0
 }
-
 .outsideclass {
-    margin-left:auto;
-    margin-right:auto;
-    width:100%
+	margin-left: auto;
+    margin-right: auto;
+	width: 100%;
 }
 
-.downloadbutton {
-    margin:125px 10px 0 0
-}
-
-#scriptbox {
-    background:#fff;
-    height:730px
-}
-
-.instructions {
-    font-size:12px;
-    border-radius:10px;
-    margin:20px 60px 60px;
-    padding:20px;
-    text-decoration:none;
-    line-height:17px;
-    background-repeat:no-repeat;
-    background-position:right bottom
-}
-
-.instructions h3 {
+#description {
+	font-family:'Roboto',sans-serif;
+    font-weight:300;
     font-size:20px;
-    line-height:40px
-}
-
-.instructions h2 {
-    font-size:20px;
-    line-height:40px
-}
-
-.instructions h4 {
-    font-size:15px;
-    line-height:40px
-}
-
-code {
-    font-family:Times,"Times New Roman",serif;
-    background:rgba(0,0,0,0.2);
-    color:#000;
-    padding:0 10px;
-    border-radius:10px
-}
-
-html { 
-  background: url(../img/bgblur.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    letter-spacing:-0.5px;
+    color:#fff
 }

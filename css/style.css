@@ -16,14 +16,20 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display:block
 }
 
+html { 
+  background: url(../img/bgmaindark.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+ 
+}
+
 body {
     line-height:1;
-    background-color:#DFDFDF;
-    background-size:100% 100%;
-    background-repeat:no-repeat;
-    margin:0;
-    background-position:fixed;
-    min-width:600px;
+	margin: 0;
+    min-width:400px;
     max-width:100%
 }
 
@@ -46,9 +52,7 @@ table {
 }
 
 /* End of Eric Meyer's CSS Reset */
-html {
-    height:100%
-}
+
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
     display:block
@@ -56,33 +60,31 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 body {
     font:12px/18px 'Roboto',Arial,sans-serif;
-    width:100%;
-    height:100%;
     color:#000
 }
 
 .wrapper {
     width:100%;
     margin:0 auto;
-    min-height:100%;
-    height:auto!important;
-    height:100%
 }
 
 /*Header */
 .content {
     margin:0;
     padding:0;
-    background:#656565;
+    background: rgba(84,84,84,0.6);
     width:100%;
     height:42px;
-    text-align:center
+    text-align:center;
+	position: fixed;
 }
 
 
 .headerlinkscontainer {
 	text-align:center;
 	padding: 10px 0 0 0;
+	margin: 0 0 50px 0;
+	min-width: 400px;
 }
 
 .headerlinkscontainer a {
@@ -103,14 +105,9 @@ body {
 }
 
 .calltoaction {
-    background-image:url(../img/background.png);
-    background-color:#3DB45E;
     background-width:100%;
     background-position:center;
     height:250px;
-    background-size:cover;
-    margin:0 0 30px;
-    box-shadow:0 10px 20px #ACACAC
 }
 
 .ctac {
@@ -120,7 +117,7 @@ body {
 	text-align:center
 }
 .ctactop {
-	padding: 60px 0 0 0;
+	padding: 20% 0 0 0;
     height:100px;
 	align-content:center;
 	text-align:center
@@ -139,9 +136,7 @@ body {
     max-width:1000px;
     height:200px;
     background-position:right;
-    background-color:#000;
     min-width:600px;
-    box-shadow:5px 5px 20px #ACACAC;
 	margin-left: auto;
     margin-right: auto;
 }
@@ -221,7 +216,7 @@ h1 {
     max-width:1000px;
     height:30px;
     background-position:right;
-    min-width:600px;
+    min-width:300px;
     margin:20px 0 0;
 	margin-left: auto;
     margin-right: auto;
@@ -236,4 +231,12 @@ h1 {
 	margin-left: auto;
     margin-right: auto;
 	width: 100%;
+}
+
+#ctalinks a img {
+	opacity: 0.75;
+}
+
+#ctalinks a img:hover {
+	opacity: 1.0;
 }
