@@ -1,16 +1,22 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* TEAM */
+	Designer and Chief: Kevin Doyle
+	Contact: kev [at] trentaos.org
+	Twitter: @KevDoy
+	From: Seattle, Washington, United States
 
-# TEAM
-
-    Kenny Stier -- Tweaker, Contributor, Developer -- @kestier19
-    Kevin Doyle -- Designer, Developer -- @KevDoy
-
-# THANKS
-
-    Initializr
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+	Code Tweaker: Kenny Stier
+	Contact: kenny [at] trentaos.org
+	Twitter: @kestier19
+	From:Millhousen, Indiana, United States
+		
+/* SITE */
+	Last update: 2015/07/14
+	Language: English
+	Doctype: HTML5
+	IDE: Dreamweaver, Photoshop, Atom, Brackets
+	Twitter: @TrentaOS
+	Google Plus: https://plus.google.com/+TrentaosOrgLinux
+	Facebook: http://facebook.com/TrentaOS
+	Distroshare: https://www.distroshare.com/distros/get/78/
+	SourceForge: http://sourceforge.net/projects/trenta-os/
+	GitHub: https://github.com/trenta-os
