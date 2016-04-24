@@ -282,7 +282,7 @@ hr {
 	width: 50%;
 	float: right;
 	height: 100%;
-	background-image: url(..../img/lappy.png);
+	background-image: url(../img/lappy.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
