@@ -7,13 +7,13 @@
 	Code Tweaker: Kenny Stier
 	Contact: kenny [at] trentaos.org
 	Twitter: @kestier19
-	From:Millhousen, Indiana, United States
+	From: Millhousen, Indiana, United States
 		
 /* SITE */
-	Last update: 2015/07/14
+	Last update: 2016/04/22
 	Language: English
 	Doctype: HTML5
-	IDE: Dreamweaver, Photoshop, Atom, Brackets
+	IDE: Dreamweaver, Photoshop, Atom, Brackets, gedit
 	Twitter: @TrentaOS
 	Google Plus: https://plus.google.com/+TrentaosOrgLinux
 	Facebook: http://facebook.com/TrentaOS
