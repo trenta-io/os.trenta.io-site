@@ -191,7 +191,7 @@ hr {
 	width: 1400px;
 	height: 300px;
 	background-size: cover;
-	background-image: url(/img/background_about.png);
+	background-image: url(../img/background_about.png);
 	background-position: top;
 	-webkit-animation: fadein 2s;
 /* Safari, Chrome and Opera > 12.1 */
@@ -211,7 +211,7 @@ hr {
 	padding-top: 350px;
 	padding-bottom: 50px;
 	background-size: cover;
-	background-image: url(/img/background_mtrainier.jpg);
+	background-image: url(../img/background_mtrainier.jpg);
 	background-position: bottom right;
 	size: cover;
 	-webkit-animation: fadein 2s;
@@ -282,7 +282,7 @@ hr {
 	width: 50%;
 	float: right;
 	height: 100%;
-	background-image: url(/img/lappy.png);
+	background-image: url(..../img/lappy.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -387,7 +387,7 @@ hr {
 }
 
 #aboutbox {
-	background-image: url(/img/about.jpg);
+	background-image: url(../img/about.jpg);
 	background-position: center;
 	background-size: cover;
 	float: left;
@@ -396,7 +396,7 @@ hr {
 }
 
 #installbox {
-	background-image: url(/img/install.jpg);
+	background-image: url(../img/install.jpg);
 	background-position: center;
 	background-size: cover;
 	float: left;
@@ -404,7 +404,7 @@ hr {
 }
 
 #communitybox {
-	background-image: url(/img/community.jpg);
+	background-image: url(../img/community.jpg);
 	background-position: center;
 	background-size: cover;
 }
@@ -494,7 +494,7 @@ footer {
 		width: 98%;
 		height: 300px;
 		background-size: cover;
-		background-image: url(/img/background_about.png);
+		background-image: url(../img/background_about.png);
 		background-position: top;
 	}
 
@@ -502,7 +502,7 @@ footer {
 		width: 100%;
 		height: 250px;
 		background-size: cover;
-		background-image: url(/img/background_mtrainier.jpg);
+		background-image: url(../img/background_mtrainier.jpg);
 		background-position: right bottom;
 	}
 
