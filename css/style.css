@@ -278,6 +278,28 @@ hr {
 	opacity: .5;
 }
 
+.socialicons {
+	margin-top: 5px;
+	font-size: 9px;
+}
+
+.socialicons a {
+	opacity: .5;	
+	transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
+}
+
+.socialicons img {
+	width: 15px;
+	margin: 0 5px;
+}
+
+.socialicons a:hover {
+	opacity: 1;	
+}
+
+
 .ctaright {
 	width: 50%;
 	float: right;
@@ -636,5 +658,9 @@ footer {
 		display: block;
 		visibility: visible;
 		padding: 10px 0;
+	}
+	.socialicons img {
+	width: 32px;
+	margin: 0 5px;
 	}
 }
