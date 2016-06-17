@@ -146,13 +146,13 @@ h1 {
 	font-size: 16px;
 	letter-spacing: -.5px;
 	opacity: 1;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
+	transition: opacity .1s ease-in-out;
+	-moz-transition: opacity .1s ease-in-out;
+	-webkit-transition: opacity .1s ease-in-out;
 }
 
 .headerlinks a:hover {
-	opacity: .5;
+	opacity: .8;
 }
 
 .hlinkpad {
@@ -163,13 +163,13 @@ h1 {
 	height: 12px;
 	margin: 0 50px 0 0;
 	opacity: 1;
-	transition: opacity .25s ease-in-out;
-	-moz-transition: opacity .25s ease-in-out;
-	-webkit-transition: opacity .25s ease-in-out;
+	transition: opacity .1s ease-in-out;
+	-moz-transition: opacity .1s ease-in-out;
+	-webkit-transition: opacity .1s ease-in-out;
 }
 
 .headerlinks img:hover {
-	opacity: .5;
+	opacity: .8;
 }
 
 .cta {
