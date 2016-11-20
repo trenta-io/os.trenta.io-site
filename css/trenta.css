@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.trentahead {
+    height: 70px;
+    background-color: rgba(255,255,255,1.0);
+    width: 100%;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+.logohead {
+    height: 35px;
+    margin: 16px 0 0 20px;
+    display: block;
+	-o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+	opacity: 1.0
+}
+
+.logohead:hover {
+	opacity: 0.8;
+}
+
+.righthead {
+	float: right;
+    margin: 25px 10px 0 0;
+	font-size: 18px;
+}
+
+.rightheadlink {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+    color: #828282;
+    padding: 0 10px;
+    text-decoration: none;
+    -o-transition: .2s;
+    -ms-transition: .2s;
+    -moz-transition: .2s;
+    -webkit-transition: .2s;
+	border: none;
+}
+
+.hideme {
+    opacity: 0;
+}
+
+.rightheadlink:hover {
+    color: #A7A7A7;
+}
+
+
+@media (max-width: 1366px) {
+	.trentahead {
+		position: relative;
+	}
+}
